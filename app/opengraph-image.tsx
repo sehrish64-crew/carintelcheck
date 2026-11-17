@@ -104,8 +104,8 @@ export default function OpenGraphImage() {
                   letterSpacing: -1.2,
                 }}
               >
-                <span>Vehicle </span>
-                <span style={{ color: '#d58a60' }}>Analyse</span>
+                <span>CarIntel </span>
+                <span style={{ color: '#d58a60' }}>Check</span>
               </div>
               <div
                 style={{
