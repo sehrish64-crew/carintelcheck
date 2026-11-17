@@ -2,12 +2,12 @@ export function StructuredData() {
   const organization = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Vehicle Analyse',
+    name: 'CarIntelCheck',
     description:
       '100% digital vehicle analysis and report services for cars, SUVs, motorcycles, vans, trucks, caravans, campervans, and motorhomes. No physical vehicle inspection is provided.',
-    url: 'https://vehicleanalyse.com',
+    url: 'https://carintelcheck.com',
     telephone: '+442079460958',
-    email: 'info@vehicleanalyse.com',
+    email: 'info@carintelcheck.com',
     areaServed: {
       '@type': 'Country',
       name: 'United Kingdom',
@@ -20,10 +20,10 @@ export function StructuredData() {
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'What kind of service does Vehicle Analyse provide?',
+        name: 'What kind of service does CarIntelCheck provide?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Vehicle Analyse provides 100% digital vehicle analysis and report services. We do not carry out physical vehicle inspections.',
+          text: 'CarIntelCheck provides 100% digital vehicle analysis and report services. We do not carry out physical vehicle inspections.',
         },
       },
       {

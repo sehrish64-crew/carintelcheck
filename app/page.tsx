@@ -113,9 +113,9 @@ const digitalBenefits = [
 
 const faqs = [
   {
-    question: 'What kind of service does Vehicle Analyse provide?',
+    question: 'What kind of service does CarIntelCheck provide?',
     answer:
-      'Vehicle Analyse provides 100% digital vehicle analysis and report services. We do not carry out physical vehicle inspections.',
+      'CarIntelCheck provides 100% digital vehicle analysis and report services. We do not carry out physical vehicle inspections.',
   },
   {
     question: 'Which vehicle types are covered?',

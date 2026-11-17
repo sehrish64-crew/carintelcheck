@@ -24,9 +24,9 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    value: 'info@vehicleanalyse.com',
+    value: 'info@carintelcheck.com',
     subtitle: 'We reply within 24 hours',
-    href: 'mailto:info@vehicleanalyse.com',
+    href: 'mailto:info@carintelcheck.com',
   },
   {
     icon: Laptop,
@@ -112,7 +112,7 @@ export default function ContactPage() {
         <div className="container relative mx-auto grid max-w-7xl items-center gap-8 px-4 sm:px-6 lg:grid-cols-[1fr_0.9fr] lg:gap-16 lg:px-8">
           <div className="max-w-2xl">
             <Badge className="mb-4 border-primary/20 bg-primary/10 text-primary">
-              Contact Vehicle Analyse
+              Contact CarIntelCheck
             </Badge>
             <h1 className="text-3xl font-bold font-display leading-tight text-navy sm:text-5xl lg:text-6xl">
               Let&apos;s talk about your digital vehicle report.
@@ -123,11 +123,11 @@ export default function ContactPage() {
               help you find the right online service.
             </p>
             <a
-              href="mailto:info@vehicleanalyse.com"
+              href="mailto:info@carintelcheck.com"
               className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-primary transition-colors hover:text-primary/80 sm:mt-7"
             >
               <Mail className="h-4 w-4" />
-              info@vehicleanalyse.com
+              info@carintelcheck.com
             </a>
           </div>
 

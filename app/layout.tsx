@@ -12,10 +12,10 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://vehicleanalyse.com'),
+  metadataBase: new URL('https://carintelcheck.com'),
   title: {
-    default: 'Vehicle Analyse | Smart Digital Vehicle Reports',
-    template: '%s | Vehicle Analyse',
+    default: 'CarIntelCheck | Smart Digital Vehicle Reports',
+    template: '%s | CarIntelCheck',
   },
   description:
     '100% digital vehicle analysis and reports for cars, SUVs, motorcycles, vans, trucks, caravans, campervans, and motorhomes. No physical inspection required.',
@@ -25,29 +25,29 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_GB',
-    siteName: 'Vehicle Analyse',
-    title: 'Vehicle Analyse | Smart Digital Vehicle Reports',
+    siteName: 'CarIntelCheck',
+    title: 'CarIntelCheck | Smart Digital Vehicle Reports',
     description:
       '100% digital vehicle analysis and reports for cars, SUVs, motorcycles, vans, trucks, caravans, campervans, and motorhomes. No physical inspection required.',
-    url: 'https://vehicleanalyse.com',
+    url: 'https://carintelcheck.com',
     images: [
       {
-        url: '/opengraph-image?version=vehicle-analyse-2026-10-29',
+        url: '/opengraph-image?version=carintelcheck-2026-10-29',
         width: 1200,
         height: 630,
-        alt: 'Vehicle Analyse digital vehicle reports for confident decisions',
+        alt: 'CarIntelCheck digital vehicle reports for confident decisions',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vehicle Analyse | Smart Digital Vehicle Reports',
+    title: 'CarIntelCheck | Smart Digital Vehicle Reports',
     description:
       '100% digital vehicle analysis and reports for cars, SUVs, motorcycles, vans, trucks, caravans, campervans, and motorhomes. No physical inspection required.',
     images: [
       {
-        url: '/opengraph-image?version=vehicle-analyse-2026-10-29',
-        alt: 'Vehicle Analyse digital vehicle reports for confident decisions',
+        url: '/opengraph-image?version=carintelcheck-2026-10-29',
+        alt: 'CarIntelCheck digital vehicle reports for confident decisions',
       },
     ],
   },

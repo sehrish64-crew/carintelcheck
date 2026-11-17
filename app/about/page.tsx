@@ -27,7 +27,7 @@ const whyChooseUs = [
     icon: ShieldCheck,
     title: 'Digital-Only Service',
     description:
-      'Vehicle Analyse provides online reports and digital analysis. We do not visit, test, or physically inspect vehicles.',
+      'CarIntelCheck provides online reports and digital analysis. We do not visit, test, or physically inspect vehicles.',
   },
   {
     icon: Search,
@@ -122,7 +122,7 @@ export default function AboutPage() {
               Driven by Transparency, Built on Trust
             </h1>
             <p className="text-sm sm:text-lg text-white/70 leading-relaxed max-w-2xl">
-              Vehicle Analyse provides 100% digital vehicle analysis and report services for cars, SUVs, motorcycles, vans,
+              CarIntelCheck provides 100% digital vehicle analysis and report services for cars, SUVs, motorcycles, vans,
               trucks, caravans, campervans, and motorhomes. No physical vehicle inspection is required or provided.
             </p>
           </div>
@@ -163,7 +163,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="space-y-3 sm:space-y-4 text-sm sm:text-base text-muted-foreground leading-relaxed">
                   <p>
-                    Vehicle Analyse provides online vehicle reports for cars, SUVs, motorcycles, vans,
+                    CarIntelCheck provides online vehicle reports for cars, SUVs, motorcycles, vans,
                     trucks, caravans, campervans, and motorhomes. Select a digital service to review the information relevant to your vehicle.
                   </p>
                   <p>
@@ -284,7 +284,7 @@ export default function AboutPage() {
       <section className="py-14 sm:py-24 bg-navy">
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            eyebrow="Why Vehicle Analyse"
+            eyebrow="Why CarIntelCheck"
             title="Why Customers Choose Us"
             description="Vehicle-specific digital reports, delivered online without a physical inspection or workshop visit."
             light

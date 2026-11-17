@@ -1,4 +1,4 @@
-# Vehicle Analyse
+# CarIntelCheck
 
 UK vehicle checks and digital PDF reports for cars, SUVs, motorcycles, vans,
 trucks, caravans, campervans, and motorhomes.

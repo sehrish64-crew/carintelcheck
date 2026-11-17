@@ -110,7 +110,7 @@ export async function POST(request: Request) {
     //   text: [
     //     `Hi ${data.clientName},`,
     //     '',
-    //     'Thanks for contacting Vehicle Analyse. We have received your vehicle details and will review them shortly.',
+    //     'Thanks for contacting CarIntelCheck. We have received your vehicle details and will review them shortly.',
     //     '',
     //     `Package: ${data.packageType.charAt(0).toUpperCase()}${data.packageType.slice(1)}`,
     //     `Vehicle Type: ${data.vehicleType}`,

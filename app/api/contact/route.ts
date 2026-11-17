@@ -172,7 +172,7 @@ export async function POST(request: Request) {
       from: smtpUser,
       to: recipient,
       replyTo: submission.email,
-      subject: `Vehicle Analyse contact: ${submission.subject}`,
+      subject: `CarIntelCheck contact: ${submission.subject}`,
       text: [
         `Name: ${submission.name}`,
         `Email: ${submission.email}`,
@@ -182,7 +182,7 @@ export async function POST(request: Request) {
         submission.message,
       ].join('\n'),
       html: `
-        <h2>New Vehicle Analyse contact message</h2>
+        <h2>New CarIntelCheck contact message</h2>
         <p><strong>Name:</strong> ${safeName}</p>
         <p><strong>Email:</strong> ${safeEmail}</p>
         <p><strong>Phone:</strong> ${safePhone}</p>
@@ -214,11 +214,11 @@ export async function POST(request: Request) {
   //     from: smtpUser,
   //     to: submission.email,
   //     replyTo: recipient,
-  //     subject: 'We received your Vehicle Analyse enquiry',
+  //     subject: 'We received your CarIntelCheck enquiry',
   //     text: [
   //       `Hello ${submission.name},`,
   //       '',
-  //       `Thanks for contacting Vehicle Analyse. We received your enquiry about "${submission.subject}" and will get back to you within 24 hours.`,
+  //       `Thanks for contacting CarIntelCheck. We received your enquiry about "${submission.subject}" and will get back to you within 24 hours.`,
   //       '',
   //       'Your message:',
   //       submission.message,

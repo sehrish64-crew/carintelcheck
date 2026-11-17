@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/server';
 
 export const runtime = 'edge';
 export const alt =
-  'Vehicle Analyse digital vehicle reports for cars, SUVs, motorcycles, vans, trucks, caravans, campervans, and motorhomes';
+  'CarIntelCheck digital vehicle reports for cars, SUVs, motorcycles, vans, trucks, caravans, campervans, and motorhomes';
 export const size = {
   width: 1200,
   height: 630,

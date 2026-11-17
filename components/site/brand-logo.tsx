@@ -15,25 +15,18 @@ export function BrandLogo({ variant = 'light' }: BrandLogoProps) {
           className="h-7 w-7 sm:h-8 sm:w-8"
         >
           <path
-            d="M7.5 11.5 13.2 28.5 19 11.5"
+            d="m6.5 25 3-7.5a3 3 0 0 1 2.8-1.9h15.4a3 3 0 0 1 2.8 1.9l3 7.5 1.5 2v5H5v-5l1.5-2Z"
             stroke="white"
-            strokeWidth="2.8"
+            strokeWidth="2.4"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
           <path
-            d="m19 28.5 7.3-17 7.2 17m-11.3-7.2h8.2"
+            d="M6 25h28M11 31v2m18-2v2M12 12l4 4 8-8"
             stroke="#d58a60"
-            strokeWidth="2.8"
+            strokeWidth="2.4"
             strokeLinecap="round"
             strokeLinejoin="round"
-          />
-          <path
-            d="M8 33h24"
-            stroke="#d58a60"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            opacity=".7"
           />
         </svg>
       </span>
@@ -43,7 +36,7 @@ export function BrandLogo({ variant = 'light' }: BrandLogoProps) {
             isLight ? 'text-white' : 'text-navy'
           }`}
         >
-          Vehicle <span className="font-semibold text-primary">Analyse</span>
+          Car<span className="font-semibold text-primary">IntelCheck</span>
         </span>
         <span
           className={`mt-1 whitespace-nowrap text-[8px] font-semibold uppercase tracking-[0.16em] sm:mt-1.5 sm:text-[10px] sm:tracking-[0.18em] ${

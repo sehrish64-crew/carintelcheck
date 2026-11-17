@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: [],
     },
-    sitemap: 'https://vehicleanalyse.com/sitemap.xml',
-    host: 'https://vehicleanalyse.com',
+    sitemap: 'https://carintelcheck.com/sitemap.xml',
+    host: 'https://carintelcheck.com',
   };
 }
