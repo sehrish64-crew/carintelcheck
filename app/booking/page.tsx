@@ -17,9 +17,9 @@ import {
 } from '@/components/ui/select';
 
 const paymentLinks = {
-  basic: 'https://buy.stripe.com/cNidRae595TabYo1no0Fi00',
-  standard: 'https://buy.stripe.com/5kQdRa1in95md2s1no0Fi01',
-  premium: 'https://buy.stripe.com/dRmcN6e591CU3rSfee0Fi02',
+  basic: 'https://buy.stripe.com/00w7sL6hx0Nxbkp5k6bo403',
+  standard: 'https://buy.stripe.com/fZu7sL5dtao7gEJ3bYbo401',
+  premium: 'https://buy.stripe.com/00w9ATdJZgMvaglcMybo402',
 };
 
 export default function BookingPage() {
