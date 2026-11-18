@@ -20,7 +20,7 @@ import { cn } from '@/lib/utils';
 const pricingPlans = [
   {
     name: 'Basic',
-    price: 40,
+    price: 35,
     period: 'Per Report',
     description: 'Essential Digital Vehicle Report:',
     icon: ShieldCheck,
@@ -38,7 +38,7 @@ const pricingPlans = [
   },
   {
     name: 'Standard',
-    price: 50,
+    price: 45,
     period: 'Per Report',
     description: 'Detailed Digital Vehicle Report',
     icon: Sparkles,
@@ -58,7 +58,7 @@ const pricingPlans = [
   },
   {
     name: 'Premium',
-    price: 60,
+    price: 55,
     period: 'Per Report',
     description: 'Comprehensive Digital Vehicle Report',
     icon: Award,

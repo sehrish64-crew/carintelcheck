@@ -178,17 +178,17 @@ export default function BookingPage() {
                       <SelectItem
                         value="basic"
                       >
-                        Basic — £40
+                        Basic — £35
                       </SelectItem>
                       <SelectItem
                         value="standard"
                       >
-                        Standard — £50
+                        Standard — £45
                       </SelectItem>
                       <SelectItem
                         value="premium"
                       >
-                        Premium — £60
+                        Premium — £55
                       </SelectItem>
                     </SelectContent>
                   </Select>
