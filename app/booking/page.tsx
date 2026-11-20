@@ -17,9 +17,9 @@ import {
 } from '@/components/ui/select';
 
 const paymentLinks = {
-  basic: 'https://buy.stripe.com/00w7sL6hx0Nxbkp5k6bo403',
-  standard: 'https://buy.stripe.com/fZu7sL5dtao7gEJ3bYbo401',
-  premium: 'https://buy.stripe.com/00w9ATdJZgMvaglcMybo402',
+  basic: 'https://pdf-tech-2.myshopify.com/products/digital-pdf?variant=47738100941030',
+  standard: 'https://pdf-tech-2.myshopify.com/products/digital-pdf-1?variant=48126459117798',
+  premium: 'https://pdf-tech-2.myshopify.com/products/digital-pdf-2?variant=48127271403750',
 };
 
 export default function BookingPage() {
